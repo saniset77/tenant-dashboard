@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg: #141019;
+  --color-mbx: #232028;
+  --color-sbx: #3C3645;
+  --color-text: #E6D1F0;
+}
+
+@layer base {
+  html, body {
+    height: 100%;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
