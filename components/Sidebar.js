@@ -20,18 +20,20 @@ export default function Sidebar() {
   className="
     group
     hidden sm:flex
-    fixed left-10 top-20 bottom-4        /* was bottom-15 (invalid) */
-    w-16 lg:w-20                          /* was w-18 (invalid) */
+    w-16 lg:w-20
     hover:w-56 lg:hover:w-56
     transition-[width] duration-300 ease-out
-    rounded-[50px]                        /* fixed radius so corners don’t morph */
+    rounded-[50px]
     bg-[var(--color-mbx)]/90
     border border-white/5
-    shadow-[0_10px_30px_rgba(0,0,0,.35)]  /* keep a single shadow */
+    shadow-[0_10px_30px_rgba(0,0,0,.35)]
     backdrop-blur-md
     p-3
     flex-col items-center justify-between
     overflow-hidden
+    h-[calc(100vh-4rem-3rem)]
+    my-6
+    ml-4
     z-40
   "
 >
@@ -92,10 +94,10 @@ export default function Sidebar() {
           shadow-[inset_0_0_0_1px_rgba(255,255,255,.06)]
           flex items-center justify-center
           hover:bg-rose-500/25 transition-colors
-          mb-1
+          mt-6 mb-1
         "
       >
-        <LogOut className="h-4 w-4 text-rose-400" />
+        <LogOut className="h-4 w-4 text-rose-400 scale-x-[-1]" />
       </button>
     </aside>
   );

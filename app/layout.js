@@ -11,13 +11,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <div className="min-h-screen flex">
-          <Sidebar />
-          <main className="pl-28 pr-4"></main>
-          <div className="flex-1">
-            <Header />
-            <main className="p-6">
-              <div className="container">{children}</div>
+        <div className="min-h-screen">
+          <Header />
+          <div className="flex">
+            <Sidebar />
+            <main className="flex-1 p-6 transition-all duration-300 ease-out">
+              <div className="container max-w-full">{children}</div>
             </main>
           </div>
         </div>
