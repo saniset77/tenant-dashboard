@@ -23,7 +23,7 @@ export default function NotificationsPage() {
         <div className="w-64 space-y-2">
           <button
             onClick={() => setActiveTab('notification')}
-            className={`w-full text-left px-4 py-3 rounded-2xl font-medium transition-all duration-200 ${
+            className={`w-full text-left px-4 py-3 rounded-full font-medium transition-all duration-200 ${
               activeTab === 'notification'
                 ? 'bg-gradient-to-r from-purple-500 to-purple-700 text-white shadow-lg'
                 : 'bg-[var(--color-mbx)] hover:bg-gray-200/10'
@@ -33,7 +33,7 @@ export default function NotificationsPage() {
           </button>
           <button
             onClick={() => setActiveTab('messages')}
-            className={`w-full text-left px-4 py-3 rounded-2xl font-medium transition-all duration-200 ${
+            className={`w-full text-left px-4 py-3 rounded-full font-medium transition-all duration-200 ${
               activeTab === 'messages'
                 ? 'bg-gradient-to-r from-purple-500 to-purple-700 text-white shadow-lg'
                 : 'bg-[var(--color-mbx)] hover:bg-gray-200/10'

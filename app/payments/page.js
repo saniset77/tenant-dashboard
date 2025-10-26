@@ -16,7 +16,7 @@ export default function PaymentsPage() {
         </div>
         <button 
           onClick={() => setIsPaymentModalOpen(true)}
-          className="bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white px-4 py-2 rounded-xl font-medium transition-all duration-200 shadow-lg"
+          className="bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white px-4 py-2 rounded-full font-medium transition-all duration-200 shadow-lg"
         >
           Pay Rent Now
         </button>
@@ -208,7 +208,7 @@ export default function PaymentsPage() {
               <div className="grid grid-cols-2 gap-3 mb-4">
                 <button
                   onClick={() => setSelectedPaymentMethod('Stripe')}
-                  className={`p-3 rounded-xl border-2 transition-all ${
+                  className={`p-3 rounded-full border-2 transition-all ${
                     selectedPaymentMethod === 'Stripe' 
                       ? 'border-purple-500 bg-purple-50' 
                       : 'border-gray-200/20 bg-[var(--color-bg)]'
@@ -230,7 +230,7 @@ export default function PaymentsPage() {
 
                 <button
                   onClick={() => setSelectedPaymentMethod('Bank')}
-                  className={`p-3 rounded-xl border-2 transition-all ${
+                  className={`p-3 rounded-full border-2 transition-all ${
                     selectedPaymentMethod === 'Bank' 
                       ? 'border-purple-500 bg-purple-50' 
                       : 'border-gray-200/20 bg-[var(--color-bg)]'
@@ -252,7 +252,7 @@ export default function PaymentsPage() {
 
                 <button
                   onClick={() => setSelectedPaymentMethod('Zelle')}
-                  className={`p-3 rounded-xl border-2 transition-all ${
+                  className={`p-3 rounded-full border-2 transition-all ${
                     selectedPaymentMethod === 'Zelle' 
                       ? 'border-purple-500 bg-purple-50' 
                       : 'border-gray-200/20 bg-[var(--color-bg)]'
@@ -274,7 +274,7 @@ export default function PaymentsPage() {
 
                 <button
                   onClick={() => setSelectedPaymentMethod('Cash App')}
-                  className={`p-3 rounded-xl border-2 transition-all ${
+                  className={`p-3 rounded-full border-2 transition-all ${
                     selectedPaymentMethod === 'Cash App' 
                       ? 'border-purple-500 bg-purple-50' 
                       : 'border-gray-200/20 bg-[var(--color-bg)]'
@@ -297,7 +297,7 @@ export default function PaymentsPage() {
 
               <button
                 onClick={() => setSelectedPaymentMethod('Venmo')}
-                className={`w-full p-3 rounded-xl border-2 transition-all ${
+                className={`w-full p-3 rounded-full border-2 transition-all ${
                   selectedPaymentMethod === 'Venmo' 
                     ? 'border-purple-500 bg-purple-50' 
                     : 'border-gray-200/20 bg-[var(--color-bg)]'
@@ -325,7 +325,7 @@ export default function PaymentsPage() {
                 setIsPaymentModalOpen(false);
                 setIsSuccessModalOpen(true);
               }}
-              className="w-full bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white py-3 rounded-xl font-medium transition-all duration-200 shadow-lg mb-4"
+              className="w-full bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white py-3 rounded-full font-medium transition-all duration-200 shadow-lg mb-4"
             >
               Pay Now
             </button>
@@ -335,7 +335,7 @@ export default function PaymentsPage() {
               <p className="text-sm text-[var(--color-text)] mb-2">Already Paid In Offline? Submit A Payment Proof.</p>
               <p className="text-xs text-[var(--color-text)] mb-3">It Can Be A Screenshot Or A Payment Receipt.</p>
               
-              <button className="bg-white border border-gray-200 text-gray-700 px-4 py-2 rounded-xl text-sm font-medium hover:bg-gray-50 transition-colors flex items-center gap-2 mx-auto">
+              <button className="bg-white border border-gray-200 text-gray-700 px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-50 transition-colors flex items-center gap-2 mx-auto">
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" />
                 </svg>
@@ -369,7 +369,7 @@ export default function PaymentsPage() {
                 setIsSuccessModalOpen(false);
                 // Optionally scroll to payment history table
               }}
-              className="bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white px-6 py-3 rounded-xl font-medium transition-all duration-200 shadow-lg"
+              className="bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white px-6 py-3 rounded-full font-medium transition-all duration-200 shadow-lg"
             >
               View Payment History
             </button>

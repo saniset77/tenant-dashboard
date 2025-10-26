@@ -6,7 +6,7 @@ export default function DocsPage() {
           <h1 className="text-2xl font-semibold">Lease & Documents</h1>
           <p className="text-sm text-[var(--color-text)]">Here's All Your Important Documents.</p>
         </div>
-        <button className="bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white px-4 py-2 rounded-xl font-medium transition-all duration-200 shadow-lg">
+        <button className="bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white px-4 py-2 rounded-full font-medium transition-all duration-200 shadow-lg">
           Upload Document
         </button>
       </div>
@@ -223,16 +223,16 @@ export default function DocsPage() {
         <div className="bg-[var(--color-mbx)] rounded-2xl p-6 shadow-sm">
           <h2 className="text-lg font-medium mb-4">Document Actions</h2>
           <div className="space-y-3">
-            <button className="w-full bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white p-3 rounded-xl font-medium transition-all duration-200 shadow-lg text-left">
+            <button className="w-full bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white p-3 rounded-full font-medium transition-all duration-200 shadow-lg text-left">
               Upload New Document
             </button>
-            <button className="w-full bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white p-3 rounded-xl font-medium transition-all duration-200 shadow-lg text-left">
+            <button className="w-full bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white p-3 rounded-full font-medium transition-all duration-200 shadow-lg text-left">
               Download Selected
             </button>
-            <button className="w-full bg-gradient-to-r from-green-500 to-green-700 hover:from-green-600 hover:to-green-800 text-white p-3 rounded-xl font-medium transition-all duration-200 shadow-lg text-left">
+            <button className="w-full bg-gradient-to-r from-green-500 to-green-700 hover:from-green-600 hover:to-green-800 text-white p-3 rounded-full font-medium transition-all duration-200 shadow-lg text-left">
               Create Document Package
             </button>
-            <button className="w-full bg-gradient-to-r from-red-500 to-red-700 hover:from-red-600 hover:to-red-800 text-white p-3 rounded-xl font-medium transition-all duration-200 shadow-lg text-left">
+            <button className="w-full bg-gradient-to-r from-red-500 to-red-700 hover:from-red-600 hover:to-red-800 text-white p-3 rounded-full font-medium transition-all duration-200 shadow-lg text-left">
               Delete Selected
             </button>
           </div>

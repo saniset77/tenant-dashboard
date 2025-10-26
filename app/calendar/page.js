@@ -14,7 +14,7 @@ export default function CalendarPage() {
         </div>
         <button 
           onClick={() => setIsModalOpen(true)}
-          className="bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white px-4 py-2 rounded-xl font-medium transition-all duration-200 shadow-lg"
+          className="bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white px-4 py-2 rounded-full font-medium transition-all duration-200 shadow-lg"
         >
           Send Viewing Request
         </button>
@@ -373,7 +373,7 @@ export default function CalendarPage() {
               <div className="pt-4">
                 <button 
                   type="submit"
-                  className="bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white px-6 py-3 rounded-xl font-medium transition-all duration-200 shadow-lg"
+                  className="bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white px-6 py-3 rounded-full font-medium transition-all duration-200 shadow-lg"
                   onClick={(e) => {
                     e.preventDefault();
                     // Handle form submission here

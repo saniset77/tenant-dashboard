@@ -84,10 +84,10 @@ export default function DashboardPage() {
                 <p className="text-sm text-[var(--color-text)] mb-6">Move-Out Notice Received. Please Chase Where To Renew Your Lease Or Move Out.</p>
                 
                 <div className="flex gap-3">
-                  <button className="bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white px-6 py-2 rounded-xl font-medium transition-all duration-200">
+                  <button className="bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white px-6 py-2 rounded-full font-medium transition-all duration-200">
                     Choose
                   </button>
-                  <button className="bg-gray-600 hover:bg-gray-700 text-white px-6 py-2 rounded-xl font-medium transition-all duration-200">
+                  <button className="bg-gray-600 hover:bg-gray-700 text-white px-6 py-2 rounded-full font-medium transition-all duration-200">
                     Move Out
                   </button>
                 </div>
@@ -115,10 +115,10 @@ export default function DashboardPage() {
                 </div>
 
                 <div className="flex gap-3">
-                  <button className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-xl font-medium transition-all duration-200 text-sm">
+                  <button className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-full font-medium transition-all duration-200 text-sm">
                     Reschedule
                   </button>
-                  <button className="bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-xl font-medium transition-all duration-200 text-sm">
+                  <button className="bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-full font-medium transition-all duration-200 text-sm">
                     Add Access Note
                   </button>
                 </div>
@@ -184,7 +184,7 @@ export default function DashboardPage() {
             <p className="text-3xl font-bold mb-1">$950</p>
             <p className="text-sm text-[var(--color-text)]">Next Payment</p>
           </div>
-          <button className="bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white px-6 py-3 rounded-xl font-medium transition-all duration-200 shadow-lg">
+          <button className="bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white px-6 py-3 rounded-full font-medium transition-all duration-200 shadow-lg">
             Pay Rent Now
           </button>
         </div>

@@ -36,7 +36,7 @@ export default function MaintenancePage() {
         </div>
         <button 
           onClick={() => setShowRequestModal(true)}
-          className="bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white px-4 py-2 rounded-xl font-medium transition-all duration-200 shadow-lg"
+          className="bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white px-4 py-2 rounded-full font-medium transition-all duration-200 shadow-lg"
         >
           Maintenance Request
         </button>
@@ -255,7 +255,7 @@ export default function MaintenancePage() {
 
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white py-3 rounded-xl font-medium transition-all duration-200 shadow-lg mt-6"
+                className="w-full bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white py-3 rounded-full font-medium transition-all duration-200 shadow-lg mt-6"
               >
                 Submit Request
               </button>
@@ -279,7 +279,7 @@ export default function MaintenancePage() {
 
             <button
               onClick={() => setShowSuccessModal(false)}
-              className="bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white px-6 py-3 rounded-xl font-medium transition-all duration-200 shadow-lg"
+              className="bg-gradient-to-r from-purple-500 to-purple-700 hover:from-purple-600 hover:to-purple-800 text-white px-6 py-3 rounded-full font-medium transition-all duration-200 shadow-lg"
             >
               Go To Home
             </button>
