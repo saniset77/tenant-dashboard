@@ -8,7 +8,7 @@ const nav = [
   { href: "/dashboard", label: "Dashboard", icon: Home },
   { href: "/payments",  label: "Payments",  icon: Wallet2 },
   { href: "/maintenance", label: "Maintenance", icon: Wrench },
-  { href: "/docs", label: "Docs", icon: FileText },
+  { href: "/docs", label: "Documents", icon: FileText },
   { href: "/calendar", label: "Calendar", icon: CalendarDays },
 ];
 
@@ -53,7 +53,7 @@ export default function Sidebar() {
                 transition-colors
                 ${active
                 ? "bg-gradient-to-b from-purple-400 to-purple-600 ring-2 ring-white/10 shadow-lg"
-                : "hover:bg-white/[0.07]"}
+                : "hover:bg-purple-200/20"}
                 `}
              >
 
@@ -62,7 +62,7 @@ export default function Sidebar() {
                     className={
                       active
                         ? "h-5 w-5 text-white"
-                        : "h-5 w-5 text-white/70 group-hover:text-white"
+                        : "h-5 w-5 text-purple-900 group-hover:text-purple-800"
                     }
                   />
                 </span>
@@ -70,7 +70,7 @@ export default function Sidebar() {
                 {/* label — hidden until sidebar expands */}
                 <span
                   className="
-                    text-sm text-white/90
+                    text-sm text-purple-900
                     opacity-0 max-w-0
                     group-hover:opacity-100 group-hover:max-w-[160px]
                     transition-all duration-300 ease-out
